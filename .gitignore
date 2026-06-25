@@ -1,0 +1,23 @@
+# environments
+venv/
+.venv/
+
+# python cache
+__pycache__/
+*.pyc
+
+# YOLO outputs (VERY IMPORTANT)
+runs/
+
+# datasets (IMPORTANT)
+my_raw_data/
+datasets/
+*.zip
+
+# models (OPTIONAL - keep only if small)
+*.onnx
+*.engine
+
+# IDE
+.idea/
+.vscode/
