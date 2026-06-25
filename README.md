@@ -1,5 +1,5 @@
-📌 Smart Zone-Wise Mess Detection System
-🧠 Overview
+# 📌 Smart Zone-Wise Mess Detection System
+# 🧠 Overview
 
 The Smart Zone-Wise Mess Detection System is a computer vision-based project that uses YOLOv8 to detect and classify different types of waste and cleanliness states in images. The system is designed to analyze different zones and identify whether an area is clean or messy based on object detection.
 
@@ -9,7 +9,8 @@ Smart city cleanliness monitoring
 Waste detection systems
 Automated environmental monitoring
 AI-based surveillance for hygiene management
-🚀 Features
+
+# 🚀 Features
 Real-time object detection using YOLOv8
 Zone-wise mess detection logic
 Dataset preprocessing and splitting
@@ -17,8 +18,8 @@ Model training and evaluation scripts
 Prediction on images
 Modular Python code structure
 Support for custom datasets
-📁 Project Structure
-Smart-Zone-Wise-Mess-Detection-System/
+# 📁 Project Structure
+# Smart-Zone-Wise-Mess-Detection-System/
 │
 ├── dataset/                 # Raw or processed dataset (images + labels)
 │   ├── train/
@@ -38,7 +39,8 @@ Smart-Zone-Wise-Mess-Detection-System/
 │
 ├── README.md              # Project documentation
 └── .gitignore             # Ignored files and folders
-📊 Dataset
+
+# 📊 Dataset
 
 The dataset contains labeled images for different categories such as:
 
@@ -58,14 +60,16 @@ Each folder should contain:
 
 Images (.jpg, .png)
 Labels (.txt YOLO format)
-⚙️ Installation
-1. Clone repository
+
+
+# ⚙️ Installation
+# 1. Clone repository
 git clone https://github.com/your-username/Smart-Zone-Wise-Mess-Detection-System.git
 cd Smart-Zone-Wise-Mess-Detection-System
-2. Create virtual environment
+# 2. Create virtual environment
 python -m venv venv
 venv\Scripts\activate   # Windows
-3. Install dependencies
+# 3. Install dependencies
 pip install -r requirements.txt
 
 If requirements.txt is missing, install manually:
@@ -76,17 +80,17 @@ pip install ultralytics opencv-python numpy matplotlib
 Run training using YOLOv8:
 
 python train.py
-🔍 Running Inference
+# 🔍 Running Inference
 
 Test model on images:
 
 python predict.py
-📈 Evaluation
+# 📈 Evaluation
 
 Evaluate model performance:
 
 python evaluation.py
-🧪 Results
+# 🧪 Results
 
 The model outputs:
 
@@ -94,24 +98,26 @@ Bounding boxes around detected objects
 Class labels (clean, clutter, waste types)
 Confidence scores
 Zone-wise classification result
-🛠 Technologies Used
+# 🛠 Technologies Used
 Python 🐍
 YOLOv8 (Ultralytics)
 OpenCV
 NumPy
 Matplotlib
-📌 Future Improvements
+# 📌 Future Improvements
 Real-time webcam detection
 Web dashboard (Flask / Streamlit)
 Cloud deployment
 Zone heatmap visualization
 Mobile app integration
-👩‍💻 Author
+# 👩‍💻 Author
 
 Sneha Das Karmakar
 
-GitHub: https://github.com/SnehaTHD82-alt
+# GitHub: https://github.com/SnehaTHD82-alt
 
 ⭐ If you like this project
 
 Give it a ⭐ on GitHub and feel free to contribute!
+
+
